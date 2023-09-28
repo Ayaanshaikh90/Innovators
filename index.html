@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <img src="/images/logo.png" alt="logo" class="logo" width="250px">
+            <ul class="navbar__nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 20 12" fill="white">
+                        <path d="M9.71313 12L19.4263 2.28687L17.1426 0L9.71313 7.43434L2.28525 0L0 2.28525L9.71313 12Z"
+                            fill="white" />
+                    </svg>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Software Development</a></li>
+                            <li><a href="#">Website Development</a></li>
+                            <li><a href="#">WrodPress Development</a></li>
+                            <li><a href="#">App Development</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#">Let's connect!</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn sovorun-navbar__toggle-menu">
+                <img class="hamburber" src="/images/hamburger.svg" alt="">
+            </label>
+            <a class="mob-connect" href="#">Let's connect!</a>
+            <ul class="navbar__mob-nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">WrodPress Development</a></li>
+                        <li><a href="#">App Development</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- <img src="/images/hero-bg.svg" alt=""> -->
+    <!-- <img src="/images" alt=""> -->
+
+    <div class="container hero-section">
+        <div class="hero-section__text-content">
+            <a href="#">Developers</a>
+            <h1>Lorem ipsum dolor sit amet consectetur adipiscing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, aptent dui aenean ridiculus ad nostra vehicula,
+                mattis faucibus malesuada cras nibh luctus. Interdum quisque ad faucibus sem</p>
+            <a class="hero-section__service-button" href="#">Learn more</a>
+        </div>
+        <div class="hero-section__bg-image">
+            <img class="hero-section__image-1" src="/images/hero-1.jpg" alt="">
+            <img class="hero-section__image-2" src="/images/hero-2.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="services container">
+        <h2>About Us</h2>
+        <div class="services__sponsors">
+            <img src="/images/html.svg" alt="">
+            <img src="/images/css.svg" alt="">
+            <img src="/images/bootstrap.svg" alt="">
+            <img src="/images/tailwind.svg" alt="">
+            <img src="/images/javascript.svg" alt="">
+            <img src="/images/react.svg" alt="">
+            <img src="/images/nextjs.svg" alt="">
+        </div>
+        <div class="services__content">
+            <img src="/images/developer.jpg" alt="">
+            <div class="services_text-content">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt, libero odit numquam
+                    optio similique blanditiis dolores laborum inventore tempora vitae suscipit laboriosam nam ex vero
+                </p>
+                <hr>
+                <div class="services__sub-content">
+                    <div>
+                        <h5>Our Vision</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt, libero odit
+                            numquam.</p>
+                    </div>
+                    <div>
+                        <h5>Our Mission</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt, libero odit
+                            numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="our-services">
+        <div class="container">
+            <div class="services-heading">
+                <span>Our Services</span>
+                <h2>Discover What We Do And How We Do It</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eos quae hic veritatis voluptatem
+                    maiores blanditiis eligendi velit, culpa tempore, amet sunt vitae temporibus soluta pariatur minus
+                    aut
+                    officiis sequi.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="/images/servives.jpg" alt="">
+                    <h5>Software Development</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates animi eos iure commodi
+                        architecto
+                        tempora officiis veritatis mollitia molestiae quae?</p>
+                </div>
+                <div class="card">
+                    <img src="/images/gamming-services.jpg" alt="">
+                    <h5>Game Development</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates animi eos iure commodi
+                        architecto
+                        tempora officiis veritatis mollitia molestiae quae?</p>
+                </div>
+                <div class="card">
+                    <img src="/images/mobile-serviecs.jpg" alt="">
+                    <h5>App Development</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates animi eos iure commodi
+                        architecto
+                        tempora officiis veritatis mollitia molestiae quae?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs-section">
+        <div class="container">
+            <div class=" blogs">
+                <div class="blogs-heading">
+                    <h2>Blogs</h2>
+                    <a href="#">View All</a>
+                </div>
+                <div class="blog-card --card-1">
+                    <img src="/images/development.png" alt="">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, modi! adipisicing elit.
+                        Dolore....<a href="#">Learn More --></a>
+                    </p>
+                </div>
+                <div class="blog-card">
+                    <img src="/images/engineering.png" alt="">
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, modi! adipisicing
+                        elit.....<a href="#">Learn More --></a>
+                    </p>
+                </div>
+                <div class="blog-card">
+                    <img src="/images/game.png" alt="">
+                    <h2>Game Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, modi! adipisicing
+                        elit.....<a href="#">Learn More --></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="c2a">
+        <h2>Come on let's work together.</h2>
+        <div>
+            <input type="email" placeholder="Enter email here">
+            <button type="submit">Get Quote</button>
+        </div>
+    </section>
+
+    <footer class="container footer">
+        <div class="footer__explore">
+            <h6>Explore</h6>
+            <span>Software</span>
+            <span>Mobile App</span>
+            <span>Web Design</span>
+            <span>Game Design</span>
+        </div>
+        <div class="footer__usefull-links">
+            <h6>Usefull links</h6>
+            <ul>
+                <li><a href="#">Who we are</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Testimonial</a></li>
+            </ul>
+        </div>
+        <div class="footer__legal">
+            <h6>Legal</h6>
+            <ul>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+            <table>
+                <tr>
+                    <td><a href="mailto:iayaanshaikh01@gmail.com">iayaanshaikh01@gmail.com</a></td>
+                    <td><a href="tel:+91XXXXXXXX">+91 79879 87495</a></td>
+                    <td class="footer__socials">
+                        <a href="#"> <img src="/images/twitter-154-svgrepo-com (1).svg" alt="twitter"></a>
+                        <a href="#"> <img src="/images/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="/images/linkedin-161-svgrepo-com (1).svg" alt="linkedin"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>© All Rights Reserved 2023 | Made by <strong>Ayaan Shaikh</strong></p>
+    </div>
+
+</body>
+
+</html>
