@@ -876,6 +876,7 @@
 
       .our-services .card img {
           width: -webkit-fill-available;
+          width: -moz-available;
           grid-row: 1/3;
       }
 
