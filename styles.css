@@ -153,6 +153,10 @@
       position: relative;
   }
 
+  .dropdown ul {
+      padding-left: 30px;
+  }
+
   .dropdown svg {
       position: absolute;
       top: 7px;
